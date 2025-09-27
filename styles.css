@@ -31,8 +31,20 @@ nav ul li a {
     text-decoration: none;
 }
 
+nav ul li a:hover {
+    color:bisque;
+}
+
 
 .logo img {
-    width: 50px;
-    height: auto;
+    border-radius: 50%;
+    width: 100px;
+   height: 100px;
+}
+
+.signup a {
+    text-decoration: none;
+    justify-content: space-between;
+    margin-left: 20px;
+
 }
