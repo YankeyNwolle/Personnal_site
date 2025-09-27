@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    text-align: center;
+    align-items: center;
+    padding: 10px 10px;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+}
+
+
+.logo img {
+    width: 50px;
+    height: auto;
+}
