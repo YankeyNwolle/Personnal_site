@@ -96,10 +96,33 @@ nav ul li a {
     font-size: 17px;
 }
 
-.services h1 {
-    text-transform: capitalize;
+.services  {
     text-align: center;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 35px;
 }
 
+
+.services h5 {
+    font-weight: 600;
+    margin-bottom: 7px;
+    color: rgb(21, 91, 213);
+    text-transform: uppercase;
+    font-size: 1rem;
+    line-height: 1.25;
+
+}
+
+.services h2 {
+    font-size: 2rem;
+    line-height: 2.8rem;
+    margin-bottom: 15px;
+}
+
+.services p {
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #6d6d6d;
+    margin: 0px;
+}
