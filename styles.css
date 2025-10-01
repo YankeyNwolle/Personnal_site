@@ -126,3 +126,28 @@ nav ul li a {
     color: #6d6d6d;
     margin: 0px;
 }
+
+.boite-1 {
+    width: 100px;
+    height: 260px;
+    border: 5px solid black;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+
+.boite-2 {
+    width: 100px;
+    height: 260px;
+    border: 5px solid black;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.boite-3 {
+    width: 100px;
+    height: 260px;
+    border: 5px solid black;
+    display: inline-block;
+    margin-left: 10px;
+}
