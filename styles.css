@@ -128,8 +128,7 @@ nav ul li a {
 }
 
 .boite {
-    margin-top: 50px;
-    margin: 20px;
+    margin: 90px;
     margin-left: 150px;
 }
 
@@ -143,7 +142,19 @@ nav ul li a {
     margin-top: 10px;
     display: inline-block;
     text-transform: capitalize;
+    margin-right: 40px;
 
+}
+
+.boite-1 p {
+
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5;
+    color:  #6d6d6d;
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .boite-2 {
@@ -156,8 +167,20 @@ nav ul li a {
     margin-top: 10px;
     display: inline-block;
     text-transform: capitalize;
+    margin-right: 40px;
+
 }
 
+.boite-2 p {
+    
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5;
+    color:  #6d6d6d;
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 .boite-3 {
     background-color: #ffffff;
@@ -169,6 +192,18 @@ nav ul li a {
     margin-top: 10px;
     display: inline-block;
     text-transform: capitalize;
+    margin-right: 40px;
+
+}
+
+.boite-3 p {
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5;
+    color:  #6d6d6d;
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 span {
