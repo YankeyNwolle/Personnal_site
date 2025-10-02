@@ -127,27 +127,51 @@ nav ul li a {
     margin: 0px;
 }
 
-.boite-1 {
-    width: 100px;
-    height: 260px;
-    border: 5px solid black;
-    display: inline-block;
-    margin-left: 10px;
+.boite {
+    margin-top: 50px;
+    margin: 20px;
+    margin-left: 150px;
 }
 
+.boite-1  {
+   background-color: #ffffff;
+    padding: 100px 60px;
+    border-radius: 20px;
+    width: 200px;
+    box-shadow: 0px 5px 15px rgb(0,0, 0, 0.25);
+    margin: 15px;
+    margin-top: 10px;
+    display: inline-block;
+    text-transform: capitalize;
+
+}
 
 .boite-2 {
-    width: 100px;
-    height: 260px;
-    border: 5px solid black;
+    background-color: #ffffff;
+    padding: 100px 60px;
+    border-radius: 20px;
+    width: 200px;
+    box-shadow: 0px 5px 15px rgb(0,0, 0, 0.25);
+    margin: 15px;
+    margin-top: 10px;
     display: inline-block;
-    margin-left: 10px;
+    text-transform: capitalize;
 }
 
+
 .boite-3 {
-    width: 100px;
-    height: 260px;
-    border: 5px solid black;
+    background-color: #ffffff;
+    padding: 100px 60px;
+    border-radius: 20px;
+    width: 200px;
+    box-shadow: 0px 5px 15px rgb(0,0, 0, 0.25);
+    margin: 15px;
+    margin-top: 10px;
     display: inline-block;
-    margin-left: 10px;
+    text-transform: capitalize;
+}
+
+span {
+    font-size: 2.5rem;
+    color: 	#87ceeb;
 }
