@@ -210,3 +210,17 @@ span {
     font-size: 2.5rem;
     color: 	#87ceeb;
 }
+
+button {
+    background-color: rgb(21, 91, 213);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    align-items: center;
+    text-transform: uppercase;
+    width: 150px;
+    margin-top: 25px;
+}
