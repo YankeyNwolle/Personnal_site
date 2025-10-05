@@ -254,11 +254,12 @@ button {
 
 .right span {
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
     background-color:  rgb(21, 91, 213);
     color: white;
     margin-left: 20px;
+    position: absolute;
 }
 
 .right ul li .content {
