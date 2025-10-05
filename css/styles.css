@@ -209,9 +209,6 @@ nav ul li a {
 span {
     font-size: 2.5rem;
     color: 	#87ceeb;
-<<<<<<< HEAD
-}
-=======
 }
 
 button {
@@ -268,6 +265,7 @@ button {
 .right ul li .content {
     display: inline-block;
     padding-left: 100px;
+    margin-bottom: 35px;
 }
 
 .right ul li .content h4 {
@@ -285,34 +283,3 @@ button {
     margin-top: 10px;
     margin-bottom: 10px;
 }
-/* 
-.team {
-    text-align: center;
-    align-items: center;
-    margin-top: 15px;
-}
-
-.team h5 {
-    font-weight: 600;
-    margin-bottom: 7px;
-    color: rgb(21, 91, 213);
-    text-transform: uppercase;
-    font-size: 1rem;
-    line-height: 1.25;
-
-}
-
-.team h2 {
-    font-size: 2rem;
-    line-height: 2.8rem;
-    margin-bottom: 15px;
-}
-
-.team p {
-    font-size: 1em;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #6d6d6d;
-    margin: 0px;
-} */
->>>>>>> essai
