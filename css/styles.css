@@ -260,6 +260,7 @@ button {
     color: white;
     margin-left: 20px;
     position: absolute;
+    text-align: center;
 }
 
 .right ul li .content {
