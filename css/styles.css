@@ -227,7 +227,7 @@ button {
 
 .left-right {
     width: 100%;
-    background-color: #f5f5f5;
+    /* background-color: #f5f5f5; */
 }
 
 .left {
@@ -240,6 +240,7 @@ button {
 
 .left img {
     border-radius: 5px;
+    margin-left: 50px;
 }
 
 .right {
@@ -250,7 +251,11 @@ button {
 
 .right ul {
     list-style: none;
+    margin-left: 50px;
+    padding: 45px;
 }
+
+
 
 .right span {
     border-radius: 50%;
