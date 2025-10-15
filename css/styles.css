@@ -224,62 +224,92 @@ button {
     margin-top: 25px;
 }
 
+.left-right {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  margin: 50px;
+  flex-wrap: wrap;
+}
 
 .left {
-    width: 50%; 
-    height: 100px; 
-    margin-left: 35px;
-    margin: 25px;
-    float: left;
+  flex: 1 1 40%;
+  margin-left: 30px;
 }
 
 .left img {
-    border-radius: 5px;
-    margin-left: 50px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
 }
 
 .right {
-    margin-left: 50%; 
-    height: 100px;
-    
+  flex: 1 1 55%;
 }
 
 .right ul {
-    list-style: none;
-    margin-left: 50px;
-    padding: 45px;
+  list-style: none;
+  padding: 0;
 }
 
-.right span {
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    background-color:  rgb(21, 91, 213);
-    color: white;
-    margin-left: 20px;
-    position: absolute;
-    text-align: center;
+.right ul li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 50px;
 }
 
-.right ul li .content {
-    display: inline-block;
-    padding-left: 100px;
-    margin-bottom: 35px;
+.right ul li span {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(21, 91, 213);
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  font-weight: bold;
+  margin-right: 20px;
 }
 
 .right ul li .content h4 {
-    font-size: 25px;
-    text-transform: uppercase;
-    margin-bottom: 15px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
 }
 
-.right ul li .content p { 
-    font-size: 1em;
-    font-weight: 400;
-    line-height: 1.5;
-    color:  #6d6d6d;
-    margin: 0px;
+.right ul li .content p {
+  font-size: 1em;
+  color: #6d6d6d;
+  margin: 0;
+}
+
+/* notre team start */
+.team {
+    text-align: center;
+    align-items: center;
     margin-top: 10px;
+}
+
+.team h5 {
+    font-weight: 600;
+    margin-bottom: 7px;
+    color: rgb(21, 91, 213);
+    text-transform: uppercase;
+    font-size: 1rem;
+    line-height: 1.25;
+}
+
+.team h2 {
+    font-size: 2rem;
+    line-height: 2.8rem;
     margin-bottom: 10px;
 }
 
+.team p {
+     font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #6d6d6d;
+    margin: 0px;
+}
+/* notre team fin */
