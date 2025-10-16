@@ -313,11 +313,16 @@ button {
     margin: 0px;
 }
 
-.cards {
-    display: block;
+/* permet l'espacement entre les cards */
+
+.card-container {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-left: 350px;
 }
 
-.card1 {
+.card1, .card2, .card3, .card4 {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   width: 15%;
@@ -325,7 +330,7 @@ button {
   border-radius: 5px;
 }
 
-.card1:hover {
+.card1:hover, .card2:hover, .card3:hover, .card4:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
@@ -333,7 +338,7 @@ button {
   padding: 2px 16px;
 }
 
-.card1 img {
+.card1 img , .card2 img, .card3 img, .card4 img {
     width: 100%;
     height: auto;
 }
