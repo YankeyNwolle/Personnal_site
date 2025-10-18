@@ -318,7 +318,7 @@ button {
 .card-container {
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 25px;
     flex-wrap: wrap;
 }
 
@@ -326,14 +326,14 @@ button {
   width: 320px;
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: 5px 5px 5px lightblue inset;
   margin: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
 .card img {
     width: 100%;
-    height: auto;
+    height: 300px;
 }
 
 .description {
@@ -343,6 +343,7 @@ button {
 .description h4 {
     font-size: 20px;
     margin-bottom: 8px;
+    text-transform: capitalize;
 }
 
 .description p {
@@ -351,3 +352,26 @@ button {
 }
 
 /* notre team fin */
+
+/* start contact */
+
+.contact {
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.contact h2{
+    line-height: 1.5;
+    font-size: 25px;
+    color: rgb(21, 91, 213);
+}
+
+.contact h5{
+    margin-top: 5px;
+    line-height: 2.5rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/* fin contact */
