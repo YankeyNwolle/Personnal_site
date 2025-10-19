@@ -383,4 +383,42 @@ button {
     margin: 0 auto;
 }
 
+
+.form-container {
+    margin-left: 35px;
+    margin-top: 35px;
+}
+
+.form-container .left-form {
+    display: flex;
+    gap: 15px;
+
+}
+
+.form-container .left-form input {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.form-container .right-form {
+    display: flex;
+    gap: 15px;
+}
+
+.form-container .right-form input {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+
 /* fin contact */
