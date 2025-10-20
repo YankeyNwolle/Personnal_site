@@ -390,7 +390,6 @@ button {
     margin: 0 auto;
 }
 
-
 .form-container {
     margin-top: 35px;
 }
@@ -415,6 +414,11 @@ button {
     font-size: 18px;
 }
 
+input:focus {
+  border-color: blue; 
+  outline: none; 
+}
+
 .form-container .right-form {
     display: flex;
     gap: 15px;
@@ -429,7 +433,6 @@ button {
     padding: 10px;
     font-size: 18px;
 }
-
 
 #message {
   width: 640px;
