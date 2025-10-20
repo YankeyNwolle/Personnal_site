@@ -356,28 +356,32 @@ button {
 /* start contact */
 
 .contact {
-    text-align: center;
-    align-items: center;
     margin-top: 30px;
     background-color: #efefef;
 }
 
 .contact h2{
+    text-align: center;
     line-height: 1.5;
     font-size: 25px;
     color: rgb(21, 91, 213);
     font-weight: bold;
     margin-top: 25px;
+    text-transform: uppercase;
 }
 
 .contact h5{
+    text-align: center;
     margin-top: 5px;
     line-height: 2.5rem;
     font-weight: bold;
     font-size: 1.5rem;
+    text-transform: uppercase;
+
 }
 
 .contact p {
+    text-align: center;
     font-size: 1em;
     font-weight: 400;
     line-height: 1.5;
@@ -425,6 +429,23 @@ button {
     padding: 10px;
     font-size: 18px;
 }
+
+
+#message {
+  width: 640px;
+  height: 100px;
+  border: 1px solid #ccc;
+  background-color: #f8f8f8;
+  padding: 10px;
+  font-family: sans-serif;
+  margin-top: 30px;
+}
+
+textarea {
+    resize: none;
+    border-radius: 5px;
+}
+
 
 
 /* fin contact */
