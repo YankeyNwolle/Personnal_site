@@ -359,12 +359,15 @@ button {
     text-align: center;
     align-items: center;
     margin-top: 30px;
+    background-color: #efefef;
 }
 
 .contact h2{
     line-height: 1.5;
     font-size: 25px;
     color: rgb(21, 91, 213);
+    font-weight: bold;
+    margin-top: 25px;
 }
 
 .contact h5{
@@ -385,8 +388,11 @@ button {
 
 
 .form-container {
-    margin-left: 35px;
     margin-top: 35px;
+}
+
+.form-container form {
+    margin-left: 35px;
 }
 
 .form-container .left-form {
